@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tanglehawk-dataplatform_jd289"
+name = "tanglehawk-reward_model_overfit_length_profile"
 version = "0.1.0"
 description = "按段落统计数据平台工程师·奖励模型的过拟合相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://tanglehawk.github.io"
-Repository = "https://github.com/tanglehawk/dataplatform_jd289"
-Issues = "https://github.com/tanglehawk/dataplatform_jd289/issues"
+Repository = "https://github.com/tanglehawk/reward_model_overfit_length_profile"
+Issues = "https://github.com/tanglehawk/reward_model_overfit_length_profile/issues"
 
 [project.scripts]
-dataplatform_jd289 = "dataplatform_jd289:main"
+reward_model_overfit_length_profile = "reward_model_overfit_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["dataplatform_jd289"]
+py-modules = ["reward_model_overfit_length_profile"]
